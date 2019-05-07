@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const path = require('path')
 
-const inventory = require('./routes/api/inventory')
+const inventory = require('./routes/api/Inventory')
 
 const app = express()
 
