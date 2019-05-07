@@ -24,7 +24,18 @@ const InventorySchema = new Schema({
     packType: {
         type: String,
         required: true
+    },
+    cubicCentiMeter: {
+        type: Number
+    },
+    weight: {
+        type: Number
+    },
+    cubicMeter:{
+        type: Number
+    },
+    status: {
+        type: String
     }
 })
-
-module.exports = InventorySchema = mongoose.model('inventory', InventorySchema)
+module.exports = Inventory = mongoose.model('inventory', InventorySchema)
